@@ -1,5 +1,5 @@
 # Quora-Question-Pairs
-Machine learning model predictor for finding similar types of questions in quora 
+Machine Learning Model which predicts whether the provided pairs of questions have a similar meaning or not
 
 **Breif Description :**
 ![image](https://user-images.githubusercontent.com/62200958/125176380-8eda3d80-e1f0-11eb-8ae9-03bd9776fa0a.png)
