@@ -19,16 +19,27 @@ Number of files : 2
 
 1) id : the id of a training set question pair
 2) qid1, qid2 : unique ids of each question (only available in train.csv)
-3) question1, *question2 *: the full text of each question
+3) question1, question2: the full text of each question
 4) is_duplicate : the target variable, set to 1 if question1 and question2 have essentially the same meaning, and 0 otherwise.
 
 The ground truth is the set of labels that have been supplied by human experts. The ground truth labels are inherently subjective, as the true meaning of sentences can never be known with certainty. Human labeling is also a 'noisy' process, and reasonable people will disagree. As a result, the ground truth labels on this dataset should be taken to be 'informed' but not 100% accurate, and may include incorrect labeling. We believe the labels, on the whole, to represent a reasonable consensus, but this may often not be true on a case by case basis for individual items in the dataset.
 
 **Zip Folder Description :**
 
+
 **Data Files:**
 
+1.train.zip
+
 **Jupyter Files:**
+
+1.Understanding_and_cleaning_data
+
+2.Feature engineering
+
+3.preprocessing
+
+4.Models_with_performance
 
 
 **Note :**
@@ -42,6 +53,12 @@ problem statement: https://www.kaggle.com/c/quora-question-pairs/overview
 Data : https://www.kaggle.com/c/quora-question-pairs/data
 
 Blog: https://towardsdatascience.com/identifying-duplicate-questions-on-quora-top-12-on-kaggle-4c1cf93f1c30
+
+fuzzywuzzy : https://www.analyticsvidhya.com/blog/2021/06/fuzzywuzzy-python-library-interesting-tool-for-nlp-and-text-analytics/
+
+
+
+
 
 
 
