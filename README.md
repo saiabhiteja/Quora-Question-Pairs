@@ -13,16 +13,41 @@ The ground truth is the set of labels that have been supplied by human experts. 
 
 All of the questions in the training set are genuine examples from Quora.The test set is computer-generated question pairs by Kaggle.
 
-**Links :**
+## Project Tree Structure
+```
+📦 Quora-Question-Pairs
+├── README.md
+├── data
+     ├── before_f_e.rar
+     ├── for_A_f_e.rar
+     ├── train.csv.zip
+├── html files
+     ├── afterbasicexcration.html
+     ├── nlpfeatures.html
+     ├── output_min.html
+├── ipynb files
+     ├── Advance_Feature__Engineering.ipynb
+     ├── Feature_engineering.ipynb
+     ├── data_explanation.ipynb
+     ├── word2vec.ipynb
+```
+## Tools Used
+- Programming language : Python
 
-problem statement: https://www.kaggle.com/c/quora-question-pairs/overview
+- Visualization : Matplotlib,Seaborn and pandas profiling
 
-Data : https://www.kaggle.com/c/quora-question-pairs/data
+- Version control system : GitHub
 
-Blog: https://towardsdatascience.com/identifying-duplicate-questions-on-quora-top-12-on-kaggle-4c1cf93f1c30
+## References
+ 
 
-fuzzywuzzy : https://www.analyticsvidhya.com/blog/2021/06/fuzzywuzzy-python-library-interesting-tool-for-nlp-and-text-analytics/
+[problem statement](https://www.kaggle.com/c/quora-question-pairs/overview)
 
+[Data](https://www.kaggle.com/c/quora-question-pairs/data)
+
+[Blog](https://towardsdatascience.com/identifying-duplicate-questions-on-quora-top-12-on-kaggle-4c1cf93f1c30)
+
+[fuzzywuzzy](https://www.analyticsvidhya.com/blog/2021/06/fuzzywuzzy-python-library-interesting-tool-for-nlp-and-text-analytics/)
 
 
 
